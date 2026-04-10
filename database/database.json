@@ -1,131 +1,134 @@
 {
-  "users": [
+  "company": [
     {
-      "id": "1",
-      "fullName": "Nguyen Thi A",
-      "email": "nguyenthia@gmail.com",
-      "password": "nguyenthia",
-      "token": "vX4jM9RtLp2QwK7nYc5B"
+      "id": "c1",
+      "companyName": "Technova Solutions",
+      "phone": "02831234567",
+      "email": "contact@technova.vn",
+      "password": "hashed_password_123",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+      "address": "Tòa nhà Bitexco, Quận 1, TP. Hồ Chí Minh",
+      "workingTime": "Thứ 2 - Thứ 6 (08:00 - 17:30)",
+      "website": "https://technova.vn",
+      "quantityPeople": 150,
+      "description": "Công ty phát triển phần mềm và giải pháp chuyển đổi số.",
+      "detail": "Technova Solutions được thành lập từ năm 2018, chuyên cung cấp các giải pháp phần mềm, hệ thống ERP và các ứng dụng mobile cho thị trường Đông Nam Á..."
     },
     {
-      "id": "2",
-      "fullName": "Do Thi B",
-      "email": "dothib@gmail.com",
-      "password": "dothib",
-      "token": "zF8sW3bV1xN6gD0eM5pJ"
-    },
-    {
-      "id": "3",
-      "fullName": "Ngo Van C",
-      "email": "ngovanc@gmail.com",
-      "password": "ngovanc",
-      "token": "pY2vH5kQ8cT9mR3LqF7b"
-    },
-    {
-      "id": "4",
-      "fullName": "Le Van D",
-      "email": "levand@gmail.com",
-      "password": "levand",
-      "token": "dM6gJ5pNeD8sZ1xV4bW0"
-    },
-    {
-      "id": "5",
-      "fullName": "Nguyen Thi E",
-      "email": "nguyenthie@gmail.com",
-      "password": "nguyenthie",
-      "token": "hR5tP2vLqY9kQ3cN8aX7"
-    },
-    {
-      "id": "6",
-      "fullName": "Nguyễn Huỳnh Thành Danh",
-      "email": "thanhdanh130425@gmail.com",
-      "password": "thanhdanh",
-      "token": "tWGqloqk7Z9LaIlFDO9m"
+      "id": "c2",
+      "companyName": "Global AI Lab",
+      "phone": "02439876543",
+      "email": "hr@globalailab.com",
+      "password": "hashed_password_456",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+      "address": "Tòa nhà Keangnam, Nam Từ Liêm, Hà Nội",
+      "workingTime": "Thứ 2 - Thứ 6 (08:30 - 18:00)",
+      "website": "https://globalailab.com",
+      "quantityPeople": 300,
+      "description": "Trung tâm nghiên cứu và ứng dụng Trí tuệ nhân tạo.",
+      "detail": "Global AI Lab tập trung vào các bài toán Machine Learning, Deep Learning, và phát triển các sản phẩm AI tạo sinh phục vụ đa ngành nghề..."
     }
   ],
-  "categories": [
+  "city": [
     {
-      "id": "1",
-      "userId": 1,
-      "name": "Schoolwork",
-      "color": "F2B828",
-      "isActive": true
+      "key": "hcm",
+      "value": "Hồ Chí Minh"
     },
     {
-      "id": "2",
-      "userId": 1,
-      "name": "Course",
-      "color": "FE7032",
-      "isActive": true
+      "key": "hn",
+      "value": "Hà Nội"
     },
     {
-      "id": "3",
-      "userId": 1,
-      "name": "Important",
-      "color": "EE000D",
-      "isActive": true
-    },
-    {
-      "id": "4",
-      "userId": 1,
-      "name": "Deep work",
-      "color": "48CA80",
-      "isActive": true
-    },
-    {
-      "id": "5",
-      "userId": 1,
-      "name": "Socialize",
-      "color": "9950FF",
-      "isActive": true
+      "key": "dn",
+      "value": "Đà Nẵng"
     }
   ],
-  "tasks": [
+  "tags": [
     {
-      "id": "1",
-      "categoryId": 1,
-      "subject": "Họp dự án Flutter",
-      "from": "2026-04-06T09:00:00",
-      "to": "2026-04-06T10:30:00",
-      "isAllDay": false
+      "key": "react",
+      "value": "ReactJS"
+    },
+    {
+      "key": "flutter",
+      "value": "Flutter"
+    },
+    {
+      "key": "node",
+      "value": "NodeJS"
+    },
+    {
+      "key": "python",
+      "value": "Python"
+    },
+    {
+      "key": "sql",
+      "value": "SQL"
     }
   ],
-  "colors": [
+  "jobs": [
     {
-      "id": "1",
-      "name": "vàng",
-      "color": "F2B828"
+      "id": "j1",
+      "idCompany": "c1",
+      "name": "Senior Frontend Developer (ReactJS)",
+      "tags": ["react", "node"],
+      "salary": "1500$ - 2500$",
+      "description": "Tìm kiếm ứng viên có kinh nghiệm với ReactJS, Redux, xây dựng UI/UX tối ưu cho hệ thống ERP.",
+      "status": true,
+      "city": ["hcm", "dn"],
+      "createAt": "29-04-2023 21:22:17",
+      "updateAt": "30-04-2023 14:12:25"
     },
     {
-      "id": "2",
-      "name": "cam",
-      "color": "FE7032"
+      "id": "j2",
+      "idCompany": "c1",
+      "name": "Mobile Developer (Flutter)",
+      "tags": ["flutter", "sql"],
+      "salary": "1000$ - 1800$",
+      "description": "Phát triển ứng dụng di động đa nền tảng sử dụng Flutter, tích hợp RESTful API và quản lý state.",
+      "status": true,
+      "city": ["hcm"],
+      "createAt": "15-05-2023 09:10:00",
+      "updateAt": "16-05-2023 10:00:00"
     },
     {
-      "id": "3",
-      "name": "đỏ",
-      "color": "EE000D"
-    },
-    {
-      "id": "4",
-      "name": "xanh lá",
-      "color": "48CA80"
-    },
-    {
-      "id": "5",
-      "name": "tím",
-      "color": "9950FF"
-    },
-    {
-      "id": "6",
-      "name": "xanh dương",
-      "color": "32A5E4"
-    },
-    {
-      "id": "8",
-      "name": "xám",
-      "color": "B8B8B8"
+      "id": "j3",
+      "idCompany": "c2",
+      "name": "AI/Machine Learning Engineer",
+      "tags": ["python", "sql"],
+      "salary": "2000$ - 4000$",
+      "description": "Nghiên cứu và triển khai các mô hình AI/ML. Yêu cầu thành thạo Python và có kiến thức về cấu trúc dữ liệu, giải thuật.",
+      "status": false,
+      "city": ["hn"],
+      "createAt": "01-06-2023 08:00:00",
+      "updateAt": "05-06-2023 16:30:15"
     }
   ],
-  "$schema": "./node_modules/json-server/schema.json"
+  "cv": [
+    {
+      "id": "cv1",
+      "idCompany": "c1",
+      "idJob": "j1",
+      "name": "Nguyễn Văn A",
+      "phone": "0987654321",
+      "email": "nguyenvana@gmail.com",
+      "description": "Em là Frontend Developer với 3 năm kinh nghiệm làm việc cùng ReactJS và các dự án SaaS. Rất mong được đồng hành cùng công ty.",
+      "linkProject": "https://github.com/nguyenvana/my-portfolio",
+      "city": "hcm",
+      "statusRead": false,
+      "createAt": "10-06-2023 10:15:30"
+    },
+    {
+      "id": "cv2",
+      "idCompany": "c1",
+      "idJob": "j2",
+      "name": "Trần Thị B",
+      "phone": "0912345678",
+      "email": "tranthib.dev@gmail.com",
+      "description": "Sinh viên mới ra trường đam mê lập trình di động. Đã có các project cá nhân bằng Flutter clone lại giao diện app thương mại điện tử.",
+      "linkProject": "https://github.com/tranthib/flutter-ecommerce",
+      "city": "hcm",
+      "statusRead": true,
+      "createAt": "11-06-2023 14:20:00"
+    }
+  ]
 }
