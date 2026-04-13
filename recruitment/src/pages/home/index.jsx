@@ -1,8 +1,10 @@
+import SearchForm from "../../components/SearchForm";
+
 function Home() {
   return (
     <>
       <div>
-        Home
+        <SearchForm  />
       </div>
     </>
   )

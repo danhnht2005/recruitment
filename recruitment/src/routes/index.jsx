@@ -1,4 +1,5 @@
-import LayoutDefault from "../Layout/LayoutDefault";
+import PrivateRoutes from "../components/PrivateRoutes";
+import LayoutDefault from "../components/layout/LayoutDefault"
 import Home from "../pages/Home";
 import Login from "../pages/login";
 
@@ -14,6 +15,12 @@ export const routes = [
       {
         path: "login",
         element: <Login />,
+      },
+      {
+        element: <PrivateRoutes />,
+        children: [
+
+        ]
       },
     ],
   },
