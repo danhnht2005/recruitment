@@ -31,14 +31,17 @@
   ],
   "city": [
     {
+      "id": 1,
       "key": "hcm",
       "value": "Hồ Chí Minh"
     },
     {
+      "id": 2,
       "key": "hn",
       "value": "Hà Nội"
     },
     {
+      "id": 3,
       "key": "dn",
       "value": "Đà Nẵng"
     }
