@@ -1,7 +1,8 @@
 import PrivateRoutes from "../components/PrivateRoutes";
 import LayoutDefault from "../components/layout/LayoutDefault"
 import Home from "../pages/Home";
-import Login from "../pages/login";
+import Login from "../pages/Login";
+import Search from "../pages/Search";
 
 export const routes = [
   {
@@ -15,6 +16,10 @@ export const routes = [
       {
         path: "login",
         element: <Login />,
+      },
+      {
+        path: "search",
+        element: <Search />,
       },
       {
         element: <PrivateRoutes />,
