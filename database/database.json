@@ -4,9 +4,9 @@
       "companyName": "Công ty ABC",
       "phone": "0935324245",
       "email": "contact@abc.com",
-      "password": "123456",
+      "password": 123456,
       "token": "pwYhBgkNOANIjtKI7WHz",
-      "id": 1,
+      "id": "1",
       "quantityPeople": 8,
       "description": "1. Tầm nhìn\nTrở thành một trong những ngân hàng tốt nhất Việt Nam, hướng tới vị trí trong top 3, với định vị là một ngân hàng cộng đồng.",
       "detail": "Mức lương cạnh tranh, hấp dẫn ",
@@ -16,11 +16,11 @@
     },
     {
       "companyName": "Công ty ABCD",
-      "password": "123456",
+      "password": 123456,
       "email": "contact@abcd.com",
       "phone": "0973455645",
       "token": "JqHrujb2R9HeyJC0Txj9",
-      "id": 2,
+      "id": "2",
       "address": "phường hà cầu",
       "quantityPeople": 50,
       "workingTime": "24h",
@@ -29,168 +29,111 @@
       "detail": "ok"
     },
     {
-      "companyName": "sss",
-      "email": "ssssssde",
-      "phone": "0972774148",
-      "password": "123",
-      "token": "HcC1j7QepQPjS756qKSl",
-      "id": 3
-    },
-    {
-      "companyName": "manh ptit",
-      "email": "ducmanhcr7ngt@gmail.com",
-      "phone": "0972774149",
-      "password": "123",
-      "token": "XMwJGFMrZ1lsslcEyfsD",
-      "id": 4,
-      "quantityPeople": 50,
-      "workingTime": "8",
-      "website": "aaa",
-      "description": "aaaa",
-      "detail": "aaaabbbb",
-      "address": "omm"
-    },
-    {
-      "companyName": "Học viện bưu chính",
-      "email": "ptit@gmail.com",
-      "phone": "0972774777",
-      "password": "1",
-      "token": "H06ImhCTzdpoceZeVV8W",
-      "id": 5
-    },
-    {
-      "companyName": "PTIT Company",
-      "email": "ptitcompany@gmail.com",
-      "phone": "0972774177",
-      "password": "1",
-      "token": "Mcd0XtxHSOVa0y5dY7an",
-      "id": 6,
-      "address": "Mộ Lao",
-      "quantityPeople": 100,
-      "workingTime": "8 tiếng",
-      "website": "ptit.edu.vn",
-      "description": "Trường bưu chính viễn thông",
-      "detail": "Cần tuyển dụng nhân sự"
-    },
-    {
-      "companyName": "Viettel",
-      "email": "viettel@gmail.com",
-      "phone": "12345",
-      "password": "1",
-      "token": "41st3EdwCE7qfXtqFZW9",
-      "id": 7,
-      "quantityPeople": 100,
-      "workingTime": "T2-T7",
-      "website": "viettel.com.vn",
-      "description": "Công ty viettel cần tuyển dụng kĩ sư cntt 2024",
-      "detail": "Viettel là cty hàng đầu"
-    },
-    {
-      "companyName": "VNPT",
-      "email": "vnpt@gmail.com",
-      "phone": "123",
-      "password": "1",
-      "token": "UXp7XDrgWjFuSca5CHuJ",
-      "id": 8,
-      "address": "phúc la",
-      "quantityPeople": 10,
-      "workingTime": "8 tiếng",
-      "website": "qqq",
-      "description": "đẹp"
-    },
-    {
-      "companyName": "NCC",
-      "email": "ncc@gmail.com",
-      "phone": "123123",
-      "password": "1",
-      "token": "mpZ3uAWe9IvXLph5TsSp",
-      "id": 9,
-      "address": "Hà đông",
-      "quantityPeople": 20,
-      "workingTime": "8 tiếng 1 ngày",
-      "website": "q11",
-      "description": "hà đông",
-      "detail": "hà đông"
+      "companyName": "Trường đại học công thương thành phố hồ chí minh",
+      "email": "thanhdanh130425@gmail.com",
+      "phone": "0898247772",
+      "password": 123456,
+      "token": "5r48JCFVSsgrVMrBqOtB",
+      "id": "yxKxyyHf5O4"
     }
   ],
   "city": [
     {
       "key": 1,
-      "value": "Hà Nội"
+      "value": "Hà Nội",
+      "id": "Jj7VKmUVFI4"
     },
     {
       "key": 2,
-      "value": "Hồ Chí Minh"
+      "value": "Hồ Chí Minh",
+      "id": "8uNNeAKcK20"
     },
     {
       "key": 3,
-      "value": "Đà Nẵng"
+      "value": "Đà Nẵng",
+      "id": "fAnsH4yAWrY"
     }
   ],
   "tags": [
     {
       "key": 1,
-      "value": "HTML"
+      "value": "HTML",
+      "id": "YiKwuP4z2-s"
     },
     {
       "key": 2,
-      "value": "CSS"
+      "value": "CSS",
+      "id": "xev5BPZn_x8"
     },
     {
       "key": 3,
-      "value": "Javascript"
+      "value": "Javascript",
+      "id": "YiuyepnK3Yg"
     },
     {
       "key": 4,
-      "value": "Database"
+      "value": "Database",
+      "id": "N-A3iRrevGc"
     },
     {
       "key": 5,
-      "value": "JSON"
+      "value": "JSON",
+      "id": "MmznXTcezTs"
     },
     {
       "key": 6,
-      "value": "PHP"
+      "value": "PHP",
+      "id": "Yh-gxWklbeE"
     },
     {
       "key": 7,
-      "value": "Python"
+      "value": "Python",
+      "id": "9N9eObhNz7I"
     },
     {
       "key": 8,
-      "value": "Java"
+      "value": "Java",
+      "id": "Be9yFHxjCEc"
     },
     {
       "key": 9,
-      "value": "SQL"
+      "value": "SQL",
+      "id": "06kX8yknZDg"
     },
     {
       "key": 10,
-      "value": "Angular"
+      "value": "Angular",
+      "id": "UcTIf8DtZag"
     },
     {
       "key": 11,
-      "value": "NodeJS"
+      "value": "NodeJS",
+      "id": "Of_q83zgQII"
     },
     {
       "key": 12,
-      "value": "ReactJS"
+      "value": "ReactJS",
+      "id": "QeVqpWILCZk"
     },
     {
       "key": 13,
-      "value": "VueJS"
+      "value": "VueJS",
+      "id": "i9hAiE61LZA"
     },
     {
       "key": 14,
-      "value": "Django"
+      "value": "Django",
+      "id": "ynC9Bos0194"
     },
     {
       "key": 15,
-      "value": "JQuery"
+      "value": "JQuery",
+      "id": "OFAB0_h0jI4"
     },
     {
       "key": 16,
-      "value": "TypeScript"
+      "value": "TypeScript",
+      "id": "7Vf_QrgT458"
     }
   ],
   "jobs": [
@@ -206,7 +149,7 @@
       "description": "Top 3 Reasons To Join Us\nChance to grow up in your career path\nTalented and enthusiastic colleagues.\nAmazing new tech in Bigdata & AI\nJob Description\nTechcom Securities (TCBS) is seeking for a Front-end Developer to join our IT team based in Hanoi office.",
       "status": true,
       "createAt": "29-10-2023 21:22:17",
-      "id": 1,
+      "id": "1",
       "city": [
         "Đà Nẵng"
       ],
@@ -223,7 +166,7 @@
       "salary": "1500",
       "description": "Công ty viettel cần tuyển dụng kĩ sư cntt 2024",
       "createAt": "29-10-2023 21:31:32",
-      "id": 2,
+      "id": "2",
       "city": [
         "Hà Nội"
       ],
@@ -240,7 +183,7 @@
       "description": " ...",
       "status": true,
       "createAt": "29-10-2023 21:33:23",
-      "id": 4,
+      "id": "4",
       "updateAt": "30-10-2023 14:12:09",
       "city": [
         "Đà Nẵng"
@@ -256,9 +199,9 @@
       "description": " ...",
       "status": true,
       "createAt": "29-10-2023 21:33:23",
-      "id": 5,
+      "id": "5",
       "updateAt": "30-10-2023 10:23:02",
-       "city": [
+      "city": [
         "Đà Nẵng"
       ]
     },
@@ -274,7 +217,7 @@
       "status": true,
       "idCompany": "1",
       "createAt": "30-10-2023 10:31:41",
-      "id": 6,
+      "id": "6",
       "city": [
         "Hồ Chí Minh"
       ],
@@ -295,7 +238,7 @@
       "status": true,
       "idCompany": "1",
       "createAt": "30-09-2023 14:10:23",
-      "id": 7
+      "id": "7"
     },
     {
       "name": "Junior 2 năm kinh nghiệm java lương upto 5000$",
@@ -311,7 +254,7 @@
       "status": true,
       "idCompany": "4",
       "createAt": "29-10-2023 20:32:14",
-      "id": 8
+      "id": "8"
     },
     {
       "name": "Dev Java",
@@ -329,7 +272,7 @@
       "status": false,
       "idCompany": "6",
       "createAt": "22-11-2023 12:57:22",
-      "id": 9,
+      "id": "9",
       "updateAt": "29-11-2023 13:50:44"
     },
     {
@@ -347,7 +290,7 @@
       "description": "Cần tuyển 5 bạn Dev Reactjs 3 năm kinh nghiệm",
       "idCompany": "6",
       "createAt": "23-11-2023 15:31:54",
-      "id": 10
+      "id": "10"
     },
     {
       "name": "Dev c++",
@@ -366,7 +309,7 @@
       "status": true,
       "idCompany": "7",
       "createAt": "23-11-2023 16:32:40",
-      "id": 11
+      "id": "11"
     },
     {
       "name": "lập trình game",
@@ -385,7 +328,7 @@
       "status": false,
       "idCompany": "6",
       "createAt": "27-11-2023 16:51:08",
-      "id": 12,
+      "id": "12",
       "updateAt": "29-11-2023 13:50:12"
     },
     {
@@ -406,7 +349,7 @@
       "status": false,
       "idCompany": "6",
       "createAt": "27-11-2023 19:53:42",
-      "id": 13
+      "id": "13"
     },
     {
       "name": "Backend Dev Java",
@@ -426,7 +369,7 @@
       "status": true,
       "idCompany": "6",
       "createAt": "29-11-2023 00:11:36",
-      "id": 14,
+      "id": "14",
       "updateAt": "29-11-2023 19:06:50"
     },
     {
@@ -444,7 +387,7 @@
       "status": true,
       "idCompany": "6",
       "createAt": "29-11-2023 13:29:28",
-      "id": 15
+      "id": "15"
     },
     {
       "name": "TÀI KHOẢN SHOPI TRẮNG TẠO SHOP",
@@ -459,12 +402,12 @@
       "status": true,
       "idCompany": "4",
       "createAt": "27-05-2024 00:45:42",
-      "id": 16
+      "id": "16"
     }
   ],
   "cv": [
     {
-      "id": 1,
+      "id": "1",
       "idCompany": 1,
       "idJob": 4,
       "name": "Le Van A",
@@ -477,7 +420,7 @@
       "city": "Hà Nội"
     },
     {
-      "id": 2,
+      "id": "2",
       "idCompany": 1,
       "idJob": 4,
       "name": "Le Van E",
@@ -490,7 +433,7 @@
       "city": "Hà Nội"
     },
     {
-      "id": 3,
+      "id": "3",
       "idCompany": 1,
       "idJob": 4,
       "name": "Le Van F",
@@ -503,7 +446,7 @@
       "city": "Hà Nội"
     },
     {
-      "id": 4,
+      "id": "4",
       "idCompany": 2,
       "idJob": 5,
       "name": "Le Van B",
@@ -516,7 +459,7 @@
       "city": "Hà Nội"
     },
     {
-      "id": 5,
+      "id": "5",
       "idCompany": 1,
       "idJob": 4,
       "name": "Le Van C",
@@ -537,7 +480,7 @@
       "idJob": 7,
       "idCompany": 1,
       "createAt": "03-05-2023 08:59:36",
-      "id": 6
+      "id": "6"
     },
     {
       "name": "Le Van A",
@@ -548,7 +491,7 @@
       "idJob": 7,
       "idCompany": 1,
       "createAt": "03-05-2023 09:02:32",
-      "id": 7,
+      "id": "7",
       "statusRead": true
     },
     {
@@ -561,7 +504,7 @@
       "idJob": 7,
       "idCompany": 1,
       "createAt": "04-05-2023 10:35:35",
-      "id": 8,
+      "id": "8",
       "statusRead": true
     },
     {
@@ -574,7 +517,7 @@
       "idJob": 7,
       "idCompany": 1,
       "createAt": "09-05-2023 22:28:37",
-      "id": 9,
+      "id": "9",
       "statusRead": true
     },
     {
@@ -587,7 +530,7 @@
       "idJob": 7,
       "idCompany": 1,
       "createAt": "01-06-2023 21:25:50",
-      "id": 10,
+      "id": "10",
       "statusRead": true
     },
     {
@@ -600,7 +543,7 @@
       "idJob": 8,
       "idCompany": 4,
       "createAt": "30-10-2023 01:11:49",
-      "id": 11,
+      "id": "11",
       "statusRead": true
     },
     {
@@ -613,7 +556,7 @@
       "idJob": 9,
       "idCompany": 6,
       "createAt": "22-11-2023 13:00:39",
-      "id": 12,
+      "id": "12",
       "statusRead": true
     },
     {
@@ -626,7 +569,7 @@
       "idJob": 9,
       "idCompany": 6,
       "createAt": "23-11-2023 15:27:29",
-      "id": 13,
+      "id": "13",
       "statusRead": true
     },
     {
@@ -639,7 +582,7 @@
       "idJob": 10,
       "idCompany": 6,
       "createAt": "26-11-2023 23:49:50",
-      "id": 14,
+      "id": "14",
       "statusRead": true
     },
     {
@@ -652,7 +595,7 @@
       "idJob": 10,
       "idCompany": 6,
       "createAt": "27-11-2023 19:52:40",
-      "id": 15,
+      "id": "15",
       "statusRead": true
     },
     {
@@ -665,7 +608,7 @@
       "idJob": 1,
       "idCompany": 1,
       "createAt": "28-11-2023 00:59:38",
-      "id": 16
+      "id": "16"
     },
     {
       "name": "ndm",
@@ -676,7 +619,7 @@
       "idJob": 1,
       "idCompany": 1,
       "createAt": "28-11-2023 01:44:18",
-      "id": 17
+      "id": "17"
     },
     {
       "name": "manh t",
@@ -688,7 +631,7 @@
       "idJob": 10,
       "idCompany": 6,
       "createAt": "28-11-2023 14:54:32",
-      "id": 18
+      "id": "18"
     },
     {
       "name": "hj",
@@ -699,7 +642,7 @@
       "idJob": 12,
       "idCompany": 6,
       "createAt": "28-11-2023 14:55:18",
-      "id": 19,
+      "id": "19",
       "statusRead": true
     },
     {
@@ -712,7 +655,7 @@
       "idJob": 14,
       "idCompany": 6,
       "createAt": "02-12-2023 23:25:08",
-      "id": 20,
+      "id": "20",
       "statusRead": true
     },
     {
@@ -724,7 +667,7 @@
       "idJob": 15,
       "idCompany": 6,
       "createAt": "27-05-2024 00:45:11",
-      "id": 21
+      "id": "21"
     },
     {
       "name": "duc manh",
@@ -736,7 +679,8 @@
       "idJob": 1,
       "idCompany": 1,
       "createAt": "27-05-2024 19:50:43",
-      "id": 22
+      "id": "22"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }

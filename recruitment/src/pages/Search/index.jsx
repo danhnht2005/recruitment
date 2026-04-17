@@ -29,8 +29,6 @@ function Search() {
     fetchApi();
   }, [citySearch, keywordSearch]);
 
-  console.log(data);
-
   return (
     <>
       <div>
