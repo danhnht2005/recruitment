@@ -18,7 +18,7 @@ function Header() {
                   Đăng nhập
                 </Button>
               </NavLink>
-              <NavLink to="/">
+              <NavLink to="/register">
                 <Button type="primary">
                   Đăng ký
                 </Button>

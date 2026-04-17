@@ -5,6 +5,7 @@ import CompanyDetail from "../pages/Company/CompanyDetail";
 import Home from "../pages/Home";
 import JobDetail from "../pages/JobDetail";
 import Login from "../pages/Login";
+import Register from "../pages/Register";
 import Search from "../pages/Search";
 
 export const routes = [
@@ -35,6 +36,10 @@ export const routes = [
       {
         path: "job/:id",
         element: <JobDetail />,
+      },
+      {
+        path: "register",
+        element: <Register />,
       },
       {
         element: <PrivateRoutes />,
