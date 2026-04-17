@@ -13,7 +13,7 @@ function JobItem(props) {
         <div className="mb-10">
           <span>Ngôn ngữ: </span>
           {item.tags.map((item, index) => (
-            <Tag color="blue" className="mb-5" key={index}>
+            <Tag color="blue" className="mb-5 mr-5" key={index}>
               {item}
             </Tag>
           ))}
@@ -21,7 +21,7 @@ function JobItem(props) {
         <div className="mb-10">
           <span>Thành phố: </span>
           {item.city.map((item, index) => (
-            <Tag color="orange" className="mb-5" key={index}>
+            <Tag color="orange" className="mb-5 mr-5" key={index}>
               {item}
             </Tag>
           ))}

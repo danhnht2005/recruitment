@@ -21,7 +21,7 @@ function SkillList() {
       <div className="mb-20">
         {tags.map((item) => (
           <Link to={`/search?keyword=${item.value || ""}`} key={item.key}>
-            <Tag color="blue" className="mb-5">
+            <Tag color="blue" className="mb-5 mr-5">
               {item.value}
             </Tag>
           </Link>

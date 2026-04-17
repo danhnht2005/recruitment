@@ -257,7 +257,10 @@
       "status": true,
       "createAt": "29-10-2023 21:33:23",
       "id": 5,
-      "updateAt": "30-10-2023 10:23:02"
+      "updateAt": "30-10-2023 10:23:02",
+       "city": [
+        "Đà Nẵng"
+      ]
     },
     {
       "name": "Sr Backend Engineer (NodeJS, TypeScript)",

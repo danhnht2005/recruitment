@@ -15,7 +15,6 @@ function CompanyDetail() {
   useEffect(() => {
     const fetchApi = async () => {
       const response = await getDetailCompany(params.id);
-      console.log(response);
       setcompany(response);
     };
     fetchApi();
@@ -28,8 +27,6 @@ function CompanyDetail() {
     };
     fetchApi();
   }, []);
-
-  console.log(jobs);
 
   return (
     <>
