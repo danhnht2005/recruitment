@@ -7,6 +7,7 @@ import JobDetail from "../pages/JobDetail";
 import Login from "../pages/Login";
 import Register from "../pages/Register";
 import Search from "../pages/Search";
+import Logout from "../pages/logout";
 
 export const routes = [
   {
@@ -20,6 +21,10 @@ export const routes = [
       {
         path: "login",
         element: <Login />,
+      },
+      {
+        path: "logout",
+        element: <Logout />,
       },
       {
         path: "search",
