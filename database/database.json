@@ -4,7 +4,7 @@
       "companyName": "Công ty ABC",
       "phone": "0935324245",
       "email": "contact@abc.com",
-      "password": "123456",
+      "password": 123456,
       "token": "pwYhBgkNOANIjtKI7WHz",
       "id": "1",
       "quantityPeople": 8,
@@ -16,7 +16,7 @@
     },
     {
       "companyName": "Công ty ABCD",
-      "password": "123456",
+      "password": 123456,
       "email": "contact@abcd.com",
       "phone": "0973455645",
       "token": "JqHrujb2R9HeyJC0Txj9",
@@ -32,7 +32,7 @@
       "companyName": "Trường đại học công thương thành phố hồ chí minh",
       "email": "thanhdanh130425@gmail.com",
       "phone": "0898247772",
-      "password": "123456",
+      "password": 123456,
       "token": "5r48JCFVSsgrVMrBqOtB",
       "id": "yxKxyyHf5O4"
     }

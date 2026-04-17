@@ -1,4 +1,4 @@
-import { Button, Col, Form, Input, message, Row } from "antd";
+import { Button, Card, Col, Form, Input, message, Row } from "antd";
 import { rules } from "../../contants";
 import { useNavigate } from "react-router-dom";
 import * as company from "../../services/companyService";
@@ -31,7 +31,8 @@ const [messageApi, contextHolder] = message.useMessage();
       {contextHolder}
       <Row justify="center">
         <Col span={12}>
-          <Form onFinish={onFinish} layout="vertical">
+          <Card title="Đăng ký tài khoản">
+            <Form onFinish={onFinish} layout="vertical">
             <Form.Item label="Tên công ty" name="companyName" rules={rules}>
               <Input />
             </Form.Item>
@@ -54,6 +55,7 @@ const [messageApi, contextHolder] = message.useMessage();
                 </Button>
               </Form.Item>
           </Form>
+          </Card>
         </Col>
       </Row>
     </>

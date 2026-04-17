@@ -13,7 +13,7 @@ function Header() {
               </NavLink>
             </div>
             <div className="layout-default__account">
-              <NavLink to="/">
+              <NavLink to="/login">
                 <Button>
                   Đăng nhập
                 </Button>
