@@ -28,8 +28,6 @@ function SearchForm() {
     navigate(`/search?city=${city}&keyword=${values.keyword || ""}`);
   }
 
-  console.log(city);
-
   return (
     <>
       <h1>1000+ Jobs For Developers</h1>
