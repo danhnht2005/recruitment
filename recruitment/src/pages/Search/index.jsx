@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import { Tag } from "antd";
-import { getAllJob } from "../../services/jobServece";
+import { getAllJob } from "../../services/jobService";
 import SearchList from "../../components/SearchList";
 
 function Search() {

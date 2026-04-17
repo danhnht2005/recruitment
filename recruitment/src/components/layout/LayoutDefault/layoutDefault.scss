@@ -1,6 +1,6 @@
 .layout-default {
   &__header {
-    background: orange;
+    background: #EDF2F1;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -11,9 +11,15 @@
       font-weight: bold;
 
       a {
-        color: #fff;
+        color: #1178FF;
       }
     }
+  }
+
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
   &__menu {
@@ -37,7 +43,7 @@
 
   &__account {
     a {
-      margin-left: 30px;
+      margin-left: 20px;
       color: #fff;
       font-weight: 600;
       font-size: 18px;

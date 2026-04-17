@@ -1,137 +1,739 @@
 {
   "company": [
     {
-      "id": "c1",
-      "companyName": "Technova Solutions",
-      "phone": "02831234567",
-      "email": "contact@technova.vn",
-      "password": "hashed_password_123",
-      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
-      "address": "Tòa nhà Bitexco, Quận 1, TP. Hồ Chí Minh",
-      "workingTime": "Thứ 2 - Thứ 6 (08:00 - 17:30)",
-      "website": "https://technova.vn",
-      "quantityPeople": 150,
-      "description": "Công ty phát triển phần mềm và giải pháp chuyển đổi số.",
-      "detail": "Technova Solutions được thành lập từ năm 2018, chuyên cung cấp các giải pháp phần mềm, hệ thống ERP và các ứng dụng mobile cho thị trường Đông Nam Á..."
+      "companyName": "Công ty ABC",
+      "phone": "0935324245",
+      "email": "contact@abc.com",
+      "password": "123456",
+      "token": "pwYhBgkNOANIjtKI7WHz",
+      "id": 1,
+      "quantityPeople": 8,
+      "description": "1. Tầm nhìn\nTrở thành một trong những ngân hàng tốt nhất Việt Nam, hướng tới vị trí trong top 3, với định vị là một ngân hàng cộng đồng.",
+      "detail": "Mức lương cạnh tranh, hấp dẫn ",
+      "address": "123 đường Tran Phu",
+      "workingTime": "T2 - T7",
+      "website": "https://abc.com"
     },
     {
-      "id": "c2",
-      "companyName": "Global AI Lab",
-      "phone": "02439876543",
-      "email": "hr@globalailab.com",
-      "password": "hashed_password_456",
-      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
-      "address": "Tòa nhà Keangnam, Nam Từ Liêm, Hà Nội",
-      "workingTime": "Thứ 2 - Thứ 6 (08:30 - 18:00)",
-      "website": "https://globalailab.com",
-      "quantityPeople": 300,
-      "description": "Trung tâm nghiên cứu và ứng dụng Trí tuệ nhân tạo.",
-      "detail": "Global AI Lab tập trung vào các bài toán Machine Learning, Deep Learning, và phát triển các sản phẩm AI tạo sinh phục vụ đa ngành nghề..."
+      "companyName": "Công ty ABCD",
+      "password": "123456",
+      "email": "contact@abcd.com",
+      "phone": "0973455645",
+      "token": "JqHrujb2R9HeyJC0Txj9",
+      "id": 2,
+      "address": "phường hà cầu",
+      "quantityPeople": 50,
+      "workingTime": "24h",
+      "website": "viettel.com.vn",
+      "description": "cty lap trinh",
+      "detail": "ok"
+    },
+    {
+      "companyName": "sss",
+      "email": "ssssssde",
+      "phone": "0972774148",
+      "password": "123",
+      "token": "HcC1j7QepQPjS756qKSl",
+      "id": 3
+    },
+    {
+      "companyName": "manh ptit",
+      "email": "ducmanhcr7ngt@gmail.com",
+      "phone": "0972774149",
+      "password": "123",
+      "token": "XMwJGFMrZ1lsslcEyfsD",
+      "id": 4,
+      "quantityPeople": 50,
+      "workingTime": "8",
+      "website": "aaa",
+      "description": "aaaa",
+      "detail": "aaaabbbb",
+      "address": "omm"
+    },
+    {
+      "companyName": "Học viện bưu chính",
+      "email": "ptit@gmail.com",
+      "phone": "0972774777",
+      "password": "1",
+      "token": "H06ImhCTzdpoceZeVV8W",
+      "id": 5
+    },
+    {
+      "companyName": "PTIT Company",
+      "email": "ptitcompany@gmail.com",
+      "phone": "0972774177",
+      "password": "1",
+      "token": "Mcd0XtxHSOVa0y5dY7an",
+      "id": 6,
+      "address": "Mộ Lao",
+      "quantityPeople": 100,
+      "workingTime": "8 tiếng",
+      "website": "ptit.edu.vn",
+      "description": "Trường bưu chính viễn thông",
+      "detail": "Cần tuyển dụng nhân sự"
+    },
+    {
+      "companyName": "Viettel",
+      "email": "viettel@gmail.com",
+      "phone": "12345",
+      "password": "1",
+      "token": "41st3EdwCE7qfXtqFZW9",
+      "id": 7,
+      "quantityPeople": 100,
+      "workingTime": "T2-T7",
+      "website": "viettel.com.vn",
+      "description": "Công ty viettel cần tuyển dụng kĩ sư cntt 2024",
+      "detail": "Viettel là cty hàng đầu"
+    },
+    {
+      "companyName": "VNPT",
+      "email": "vnpt@gmail.com",
+      "phone": "123",
+      "password": "1",
+      "token": "UXp7XDrgWjFuSca5CHuJ",
+      "id": 8,
+      "address": "phúc la",
+      "quantityPeople": 10,
+      "workingTime": "8 tiếng",
+      "website": "qqq",
+      "description": "đẹp"
+    },
+    {
+      "companyName": "NCC",
+      "email": "ncc@gmail.com",
+      "phone": "123123",
+      "password": "1",
+      "token": "mpZ3uAWe9IvXLph5TsSp",
+      "id": 9,
+      "address": "Hà đông",
+      "quantityPeople": 20,
+      "workingTime": "8 tiếng 1 ngày",
+      "website": "q11",
+      "description": "hà đông",
+      "detail": "hà đông"
     }
   ],
   "city": [
     {
-      "id": 1,
-      "key": "hcm",
-      "value": "Hồ Chí Minh"
-    },
-    {
-      "id": 2,
-      "key": "hn",
+      "key": 1,
       "value": "Hà Nội"
     },
     {
-      "id": 3,
-      "key": "dn",
+      "key": 2,
+      "value": "Hồ Chí Minh"
+    },
+    {
+      "key": 3,
       "value": "Đà Nẵng"
     }
   ],
   "tags": [
     {
-      "key": "react",
-      "value": "ReactJS"
+      "key": 1,
+      "value": "HTML"
     },
     {
-      "key": "flutter",
-      "value": "Flutter"
+      "key": 2,
+      "value": "CSS"
     },
     {
-      "key": "node",
-      "value": "NodeJS"
+      "key": 3,
+      "value": "Javascript"
     },
     {
-      "key": "python",
+      "key": 4,
+      "value": "Database"
+    },
+    {
+      "key": 5,
+      "value": "JSON"
+    },
+    {
+      "key": 6,
+      "value": "PHP"
+    },
+    {
+      "key": 7,
       "value": "Python"
     },
     {
-      "key": "sql",
+      "key": 8,
+      "value": "Java"
+    },
+    {
+      "key": 9,
       "value": "SQL"
+    },
+    {
+      "key": 10,
+      "value": "Angular"
+    },
+    {
+      "key": 11,
+      "value": "NodeJS"
+    },
+    {
+      "key": 12,
+      "value": "ReactJS"
+    },
+    {
+      "key": 13,
+      "value": "VueJS"
+    },
+    {
+      "key": 14,
+      "value": "Django"
+    },
+    {
+      "key": 15,
+      "value": "JQuery"
+    },
+    {
+      "key": 16,
+      "value": "TypeScript"
     }
   ],
   "jobs": [
     {
-      "id": "j1",
-      "idCompany": "c1",
-      "name": "Senior Frontend Developer (ReactJS)",
-      "tags": ["react", "node"],
-      "salary": "1500$ - 2500$",
-      "description": "Tìm kiếm ứng viên có kinh nghiệm với ReactJS, Redux, xây dựng UI/UX tối ưu cho hệ thống ERP.",
+      "idCompany": 1,
+      "name": "Frontend Dev (Angular/ReactJS)",
+      "tags": [
+        "ReactJS",
+        "Angular",
+        "TypeScript"
+      ],
+      "salary": "1000",
+      "description": "Top 3 Reasons To Join Us\nChance to grow up in your career path\nTalented and enthusiastic colleagues.\nAmazing new tech in Bigdata & AI\nJob Description\nTechcom Securities (TCBS) is seeking for a Front-end Developer to join our IT team based in Hanoi office.",
       "status": true,
-      "city": ["Hồ Chí Minh", "Đà Nẵng"],
-      "createAt": "29-04-2023 21:22:17",
-      "updateAt": "30-04-2023 14:12:25"
+      "createAt": "29-10-2023 21:22:17",
+      "id": 1,
+      "city": [
+        "Đà Nẵng"
+      ],
+      "updateAt": "30-10-2023 14:12:25"
     },
     {
-      "id": "j2",
-      "idCompany": "c1",
-      "name": "Mobile Developer (Flutter)",
-      "tags": ["flutter", "sql"],
-      "salary": "1000$ - 1800$",
-      "description": "Phát triển ứng dụng di động đa nền tảng sử dụng Flutter, tích hợp RESTful API và quản lý state.",
-      "status": true,
-      "city": ["Hồ Chí Minh"],
-      "createAt": "15-05-2023 09:10:00",
-      "updateAt": "16-05-2023 10:00:00"
+      "idCompany": 1,
+      "name": "Frontend Tech Lead (X2)",
+      "tags": [
+        "HTML",
+        "CSS",
+        "ReactJS"
+      ],
+      "salary": "1500",
+      "description": "Công ty viettel cần tuyển dụng kĩ sư cntt 2024",
+      "createAt": "29-10-2023 21:31:32",
+      "id": 2,
+      "city": [
+        "Hà Nội"
+      ],
+      "updateAt": "30-10-2023 14:12:21"
     },
     {
-      "id": "j3",
-      "idCompany": "c2",
-      "name": "AI/Machine Learning Engineer",
-      "tags": ["python", "sql"],
-      "salary": "2000$ - 4000$",
-      "description": "Nghiên cứu và triển khai các mô hình AI/ML. Yêu cầu thành thạo Python và có kiến thức về cấu trúc dữ liệu, giải thuật.",
+      "idCompany": 1,
+      "name": "Middle/Senior Java Developer",
+      "tags": [
+        "Java",
+        "SQL"
+      ],
+      "salary": "3000",
+      "description": " ...",
+      "status": true,
+      "createAt": "29-10-2023 21:33:23",
+      "id": 4,
+      "updateAt": "30-10-2023 14:12:09",
+      "city": [
+        "Đà Nẵng"
+      ]
+    },
+    {
+      "idCompany": 2,
+      "name": "Junior PHP Developer",
+      "tags": [
+        "PHP"
+      ],
+      "salary": "2500",
+      "description": " ...",
+      "status": true,
+      "createAt": "29-10-2023 21:33:23",
+      "id": 5,
+      "updateAt": "30-10-2023 10:23:02"
+    },
+    {
+      "name": "Sr Backend Engineer (NodeJS, TypeScript)",
+      "tags": [
+        "NodeJS",
+        "Javascript",
+        "TypeScript"
+      ],
+      "salary": "2500",
+      "description": "Chỉ cần ngồi xem tiktok lương 5000$",
+      "status": true,
+      "idCompany": "1",
+      "createAt": "30-10-2023 10:31:41",
+      "id": 6,
+      "city": [
+        "Hồ Chí Minh"
+      ],
+      "updateAt": "30-10-2023 14:12:00"
+    },
+    {
+      "name": "NodeJS Backend Developer (Middle,Senior)",
+      "tags": [
+        "NodeJS",
+        "SQL"
+      ],
+      "salary": "2000",
+      "city": [
+        "Hà Nội",
+        "Hồ Chí Minh"
+      ],
+      "description": "Lập trình game bằng C++",
+      "status": true,
+      "idCompany": "1",
+      "createAt": "30-09-2023 14:10:23",
+      "id": 7
+    },
+    {
+      "name": "Junior 2 năm kinh nghiệm java lương upto 5000$",
+      "tags": [
+        "Java"
+      ],
+      "salary": "5000",
+      "city": [
+        "Hà Nội",
+        "Hồ Chí Minh"
+      ],
+      "description": "Chỉ cần ngồi xem tiktok lương 5000$",
+      "status": true,
+      "idCompany": "4",
+      "createAt": "29-10-2023 20:32:14",
+      "id": 8
+    },
+    {
+      "name": "Dev Java",
+      "tags": [
+        "Java",
+        "HTML",
+        "CSS"
+      ],
+      "salary": "1500",
+      "city": [
+        "Hà Nội",
+        "Hồ Chí Minh"
+      ],
+      "description": "Cần tuyển 5 bạn dev java",
       "status": false,
-      "city": ["Hà Nội"],
-      "createAt": "01-06-2023 08:00:00",
-      "updateAt": "05-06-2023 16:30:15"
+      "idCompany": "6",
+      "createAt": "22-11-2023 12:57:22",
+      "id": 9,
+      "updateAt": "29-11-2023 13:50:44"
+    },
+    {
+      "name": "Dev ReactJs 3 năm kinh nghiệm lương upto 3000$",
+      "tags": [
+        "ReactJS",
+        "Javascript",
+        "HTML",
+        "CSS"
+      ],
+      "salary": "1000",
+      "city": [
+        "Hà Nội"
+      ],
+      "description": "Cần tuyển 5 bạn Dev Reactjs 3 năm kinh nghiệm",
+      "idCompany": "6",
+      "createAt": "23-11-2023 15:31:54",
+      "id": 10
+    },
+    {
+      "name": "Dev c++",
+      "tags": [
+        "ReactJS",
+        "PHP",
+        "SQL"
+      ],
+      "salary": "1000",
+      "city": [
+        "Hà Nội",
+        "Hồ Chí Minh",
+        "Đà Nẵng"
+      ],
+      "description": "Cần tuyển 100 bạn dev theo yêu cầu",
+      "status": true,
+      "idCompany": "7",
+      "createAt": "23-11-2023 16:32:40",
+      "id": 11
+    },
+    {
+      "name": "lập trình game",
+      "tags": [
+        "ReactJS",
+        "Javascript",
+        "JSON"
+      ],
+      "salary": "4000",
+      "city": [
+        "Hà Nội",
+        "Hồ Chí Minh",
+        "Đà Nẵng"
+      ],
+      "description": "Lập trình game bằng C++",
+      "status": false,
+      "idCompany": "6",
+      "createAt": "27-11-2023 16:51:08",
+      "id": 12,
+      "updateAt": "29-11-2023 13:50:12"
+    },
+    {
+      "name": "Tuyển 10 bạn làm partime C++",
+      "tags": [
+        "HTML",
+        "CSS",
+        "Python",
+        "Java",
+        "PHP"
+      ],
+      "salary": "2000",
+      "city": [
+        "Hà Nội",
+        "Đà Nẵng"
+      ],
+      "description": "Tuyển partime",
+      "status": false,
+      "idCompany": "6",
+      "createAt": "27-11-2023 19:53:42",
+      "id": 13
+    },
+    {
+      "name": "Backend Dev Java",
+      "tags": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "PHP",
+        "Java"
+      ],
+      "salary": "2000",
+      "city": [
+        "Hà Nội",
+        "Hồ Chí Minh"
+      ],
+      "description": "Cần tuyển dev java 2 năm kinh nghiệm",
+      "status": true,
+      "idCompany": "6",
+      "createAt": "29-11-2023 00:11:36",
+      "id": 14,
+      "updateAt": "29-11-2023 19:06:50"
+    },
+    {
+      "name": "Fullstack Dev 3 năm kinh nghiệm",
+      "tags": [
+        "PHP",
+        "Java"
+      ],
+      "salary": "6000",
+      "city": [
+        "Hồ Chí Minh",
+        "Hà Nội"
+      ],
+      "description": "Xây dựung dự án theo yêu cầu",
+      "status": true,
+      "idCompany": "6",
+      "createAt": "29-11-2023 13:29:28",
+      "id": 15
+    },
+    {
+      "name": "TÀI KHOẢN SHOPI TRẮNG TẠO SHOP",
+      "tags": [
+        "Javascript"
+      ],
+      "salary": "1pp",
+      "city": [
+        "Hà Nội"
+      ],
+      "description": "tôi là Mnahj",
+      "status": true,
+      "idCompany": "4",
+      "createAt": "27-05-2024 00:45:42",
+      "id": 16
     }
   ],
   "cv": [
     {
-      "id": "cv1",
-      "idCompany": "c1",
-      "idJob": "j1",
-      "name": "Nguyễn Văn A",
-      "phone": "0987654321",
-      "email": "nguyenvana@gmail.com",
-      "description": "Em là Frontend Developer với 3 năm kinh nghiệm làm việc cùng ReactJS và các dự án SaaS. Rất mong được đồng hành cùng công ty.",
-      "linkProject": "https://github.com/nguyenvana/my-portfolio",
-      "city": "Hồ Chí Minh",
-      "statusRead": false,
-      "createAt": "10-06-2023 10:15:30"
+      "id": 1,
+      "idCompany": 1,
+      "idJob": 4,
+      "name": "Le Van A",
+      "phone": "0123456789",
+      "email": "levana@gmail.com",
+      "statusRead": true,
+      "description": "Xin chào, tôi là Le Van A. Hiện tại tôi đang là...",
+      "linkProject": "",
+      "createAt": "29-04-2023 10:31:41",
+      "city": "Hà Nội"
     },
     {
-      "id": "cv2",
-      "idCompany": "c1",
-      "idJob": "j2",
-      "name": "Trần Thị B",
-      "phone": "0912345678",
-      "email": "tranthib.dev@gmail.com",
-      "description": "Sinh viên mới ra trường đam mê lập trình di động. Đã có các project cá nhân bằng Flutter clone lại giao diện app thương mại điện tử.",
-      "linkProject": "https://github.com/tranthib/flutter-ecommerce",
-      "city": "Hồ Chí Minh",
+      "id": 2,
+      "idCompany": 1,
+      "idJob": 4,
+      "name": "Le Van E",
+      "phone": "0123456789",
+      "email": "levane@gmail.com",
       "statusRead": true,
-      "createAt": "11-06-2023 14:20:00"
+      "description": "Xin chào, tôi là Le Van E. Hiện tại tôi đang là...",
+      "linkProject": "",
+      "createAt": "29-04-2023 10:32:41",
+      "city": "Hà Nội"
+    },
+    {
+      "id": 3,
+      "idCompany": 1,
+      "idJob": 4,
+      "name": "Le Van F",
+      "phone": "0123456789",
+      "email": "levanf@gmail.com",
+      "statusRead": true,
+      "description": "Xin chào, tôi là Le Van F. Hiện tại tôi đang là...",
+      "linkProject": "",
+      "createAt": "29-04-2023 10:33:41",
+      "city": "Hà Nội"
+    },
+    {
+      "id": 4,
+      "idCompany": 2,
+      "idJob": 5,
+      "name": "Le Van B",
+      "phone": "0123456789",
+      "email": "levanb@gmail.com",
+      "statusRead": false,
+      "description": "Xin chào, tôi là Le Van B. Hiện tại tôi đang là...",
+      "linkProject": "",
+      "createAt": "30-04-2023 10:31:41",
+      "city": "Hà Nội"
+    },
+    {
+      "id": 5,
+      "idCompany": 1,
+      "idJob": 4,
+      "name": "Le Van C",
+      "phone": "0123456789",
+      "email": "levanc@gmail.com",
+      "statusRead": true,
+      "description": "Xin chào, tôi là Le Van C. Hiện tại tôi đang là...",
+      "linkProject": "",
+      "createAt": "30-04-2023 10:31:41",
+      "city": "Hà Nội"
+    },
+    {
+      "name": "Le Van A",
+      "phone": "0123456789",
+      "email": "namdp.1999@gmail.com",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "linkProject": "https://itviec.com/\nhttps://www.w3schools.com/",
+      "idJob": 7,
+      "idCompany": 1,
+      "createAt": "03-05-2023 08:59:36",
+      "id": 6
+    },
+    {
+      "name": "Le Van A",
+      "phone": "0123456789",
+      "email": "namdp.1999@gmail.com",
+      "description": "ádasd",
+      "linkProject": "ádasd",
+      "idJob": 7,
+      "idCompany": 1,
+      "createAt": "03-05-2023 09:02:32",
+      "id": 7,
+      "statusRead": true
+    },
+    {
+      "name": "Le Van A",
+      "phone": "0123456789",
+      "email": "levana@gmail.com",
+      "city": "Hà Nội",
+      "description": "Lorem...",
+      "linkProject": "Lorem 123 ...",
+      "idJob": 7,
+      "idCompany": 1,
+      "createAt": "04-05-2023 10:35:35",
+      "id": 8,
+      "statusRead": true
+    },
+    {
+      "name": "Nam test",
+      "phone": "0123456789",
+      "email": "namtest@gmail.com",
+      "city": "Hà Nội",
+      "description": "Xin chào...",
+      "linkProject": "https://daca.vn/",
+      "idJob": 7,
+      "idCompany": 1,
+      "createAt": "09-05-2023 22:28:37",
+      "id": 9,
+      "statusRead": true
+    },
+    {
+      "name": "Le Van A",
+      "phone": "0344570115",
+      "email": "namdp.1999@gmail.com",
+      "city": "Hà Nội",
+      "description": "Xin chào...",
+      "linkProject": "daca.vn",
+      "idJob": 7,
+      "idCompany": 1,
+      "createAt": "01-06-2023 21:25:50",
+      "id": 10,
+      "statusRead": true
+    },
+    {
+      "name": "ndm",
+      "phone": "0972774142",
+      "email": "ducmanhcrqq7ngt@gmail.com",
+      "city": "Hà Nội",
+      "description": "tôi la manh",
+      "linkProject": "xxx",
+      "idJob": 8,
+      "idCompany": 4,
+      "createAt": "30-10-2023 01:11:49",
+      "id": 11,
+      "statusRead": true
+    },
+    {
+      "name": "manh",
+      "phone": "0972774148",
+      "email": "ducmanhcr7ngt@gmail.com",
+      "city": "Hà Nội",
+      "description": "dep trai",
+      "linkProject": "123",
+      "idJob": 9,
+      "idCompany": 6,
+      "createAt": "22-11-2023 13:00:39",
+      "id": 12,
+      "statusRead": true
+    },
+    {
+      "name": "lê mạnh",
+      "phone": "8288",
+      "email": "manhngt@gmail.com",
+      "city": "Hồ Chí Minh",
+      "description": "tôi là mạnh",
+      "linkProject": "abc\nxyz",
+      "idJob": 9,
+      "idCompany": 6,
+      "createAt": "23-11-2023 15:27:29",
+      "id": 13,
+      "statusRead": true
+    },
+    {
+      "name": "ndm",
+      "phone": "12",
+      "email": "ducmanhcr7ngt@gmail.com",
+      "city": "Hà Nội",
+      "description": "q",
+      "linkProject": "qqq",
+      "idJob": 10,
+      "idCompany": 6,
+      "createAt": "26-11-2023 23:49:50",
+      "id": 14,
+      "statusRead": true
+    },
+    {
+      "name": "manh t",
+      "phone": "1111",
+      "email": "ducmanhcr7ngt@gmail.com",
+      "city": "Hà Nội",
+      "description": "hhhaa",
+      "linkProject": "he",
+      "idJob": 10,
+      "idCompany": 6,
+      "createAt": "27-11-2023 19:52:40",
+      "id": 15,
+      "statusRead": true
+    },
+    {
+      "name": "qqq",
+      "phone": "0972774148",
+      "email": "ducmanhcr7ngt@gmail.com",
+      "city": "Đà Nẵng",
+      "description": "qqqq",
+      "linkProject": "qqqqq",
+      "idJob": 1,
+      "idCompany": 1,
+      "createAt": "28-11-2023 00:59:38",
+      "id": 16
+    },
+    {
+      "name": "ndm",
+      "phone": "0972774148",
+      "email": "ducmanhcr7ngt@gmail.com",
+      "city": "Đà Nẵng",
+      "description": "gggh",
+      "idJob": 1,
+      "idCompany": 1,
+      "createAt": "28-11-2023 01:44:18",
+      "id": 17
+    },
+    {
+      "name": "manh t",
+      "phone": "0972774148",
+      "email": "ducmanhcr7ngt@gmail.com",
+      "city": "Hà Nội",
+      "description": "ytfghn",
+      "linkProject": "ghjn,",
+      "idJob": 10,
+      "idCompany": 6,
+      "createAt": "28-11-2023 14:54:32",
+      "id": 18
+    },
+    {
+      "name": "hj",
+      "phone": "0972774148",
+      "email": "ducmanhcr7ngt@gmail.com",
+      "city": "Hồ Chí Minh",
+      "description": "n",
+      "idJob": 12,
+      "idCompany": 6,
+      "createAt": "28-11-2023 14:55:18",
+      "id": 19,
+      "statusRead": true
+    },
+    {
+      "name": "manh",
+      "phone": "0972774148",
+      "email": "ducmanhcr7ngt@gmail.co",
+      "city": "Hà Nội",
+      "description": "jwjq",
+      "linkProject": "qqqq",
+      "idJob": 14,
+      "idCompany": 6,
+      "createAt": "02-12-2023 23:25:08",
+      "id": 20,
+      "statusRead": true
+    },
+    {
+      "name": "ndm",
+      "phone": "0972774148",
+      "email": "ducmanhcr7ngt@gmail.com",
+      "city": "Hà Nội",
+      "description": "tôi là mạnh",
+      "idJob": 15,
+      "idCompany": 6,
+      "createAt": "27-05-2024 00:45:11",
+      "id": 21
+    },
+    {
+      "name": "duc manh",
+      "phone": "0972774",
+      "email": "ducmanhcr7ngt@gmail.com",
+      "city": "Đà Nẵng",
+      "description": "wwwhwjww",
+      "linkProject": "ôk",
+      "idJob": 1,
+      "idCompany": 1,
+      "createAt": "27-05-2024 19:50:43",
+      "id": 22
     }
   ]
 }

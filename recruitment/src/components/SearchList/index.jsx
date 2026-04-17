@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { getAllCompany } from "../../services/company";
+import { getAllCompany } from "../../services/companyService";
 import { Col, Row } from "antd";
 import JobItem from "../JobItem";
 

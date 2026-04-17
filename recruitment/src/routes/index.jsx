@@ -1,6 +1,7 @@
 import PrivateRoutes from "../components/PrivateRoutes";
 import LayoutDefault from "../components/layout/LayoutDefault"
 import Home from "../pages/Home";
+import JobDetail from "../pages/JobDetail";
 import Login from "../pages/Login";
 import Search from "../pages/Search";
 
@@ -22,9 +23,12 @@ export const routes = [
         element: <Search />,
       },
       {
+        path: "job/:id",
+        element: <JobDetail />,
+      },
+      {
         element: <PrivateRoutes />,
         children: [
-
         ]
       },
     ],
