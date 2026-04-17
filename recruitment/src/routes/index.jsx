@@ -1,6 +1,7 @@
 import PrivateRoutes from "../components/PrivateRoutes";
 import LayoutDefault from "../components/layout/LayoutDefault"
 import Company from "../pages/Company";
+import CompanyDetail from "../pages/Company/CompanyDetail";
 import Home from "../pages/Home";
 import JobDetail from "../pages/JobDetail";
 import Login from "../pages/Login";
@@ -25,7 +26,7 @@ export const routes = [
       },
       {
         path: "company/:id",
-        element: <JobDetail />,
+        element: <CompanyDetail />,
       },
       {
         path: "company",
