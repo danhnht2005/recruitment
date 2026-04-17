@@ -1,3 +1,4 @@
+import { Navigate } from "react-router-dom";
 import PrivateRoutes from "../components/PrivateRoutes";
 import LayoutDefault from "../components/layout/LayoutDefault"
 import Company from "../pages/Company";
@@ -8,6 +9,8 @@ import Login from "../pages/Login";
 import Register from "../pages/Register";
 import Search from "../pages/Search";
 import Logout from "../pages/logout";
+import Dashboard from "../pages/Dashboard";
+import LayoutAdmin from "../components/layout/LayoutAdmin";
 
 export const routes = [
   {
@@ -47,10 +50,24 @@ export const routes = [
         element: <Register />,
       },
       {
-        element: <PrivateRoutes />,
+        path: "*",
+        element: <Navigate to="/" />,
+      },
+
+    ],
+  },
+  {
+    element: <PrivateRoutes />,
+    children: [
+      {
+        element: <LayoutAdmin />,
         children: [
+          {
+            path: "admin",
+            element: <Dashboard />,
+          }
         ]
       },
-    ],
+    ]
   },
 ]
