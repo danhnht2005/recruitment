@@ -27,7 +27,6 @@ function CVStatistic() {
     fetchApi();
   }, [idCompany]);
 
-
   return (
     <>
       {data && (

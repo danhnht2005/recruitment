@@ -25,9 +25,7 @@ function JobStatistic() {
     };
     fetchApi();
   }, [idCompany]);
-
-  console.log(data);
-
+  
   return (
     <>
       {data && (

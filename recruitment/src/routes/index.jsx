@@ -11,6 +11,7 @@ import Search from "../pages/Search";
 import Logout from "../pages/logout";
 import Dashboard from "../pages/Dashboard";
 import LayoutAdmin from "../components/layout/LayoutAdmin";
+import InfoCompany from "../pages/InfoCompany";
 
 export const routes = [
   {
@@ -65,7 +66,11 @@ export const routes = [
           {
             path: "admin",
             element: <Dashboard />,
-          }
+          },
+          {
+            path: "info-company",
+            element: <InfoCompany />,
+          },
         ]
       },
     ]
