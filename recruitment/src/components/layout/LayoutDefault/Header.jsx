@@ -1,10 +1,10 @@
 import { NavLink } from "react-router-dom";
 import { Button } from "antd";
-import { getCookie } from "../../../helpers/cookie";
 import { UserOutlined, LogoutOutlined } from "@ant-design/icons";
+import { useSelector } from "react-redux";
 
 function Header() {
-  const token = getCookie("token");
+  const isLogin = useSelector(state => state.loginReducer)
 
   return (
     <>
@@ -17,7 +17,7 @@ function Header() {
               </NavLink>
             </div>
             <div className="layout-default__account">
-              {token ? (
+              {isLogin ? (
                 <>
                   <NavLink to="/admin">
                     <Button icon={<UserOutlined />}>Quản lý</Button>
