@@ -417,21 +417,6 @@
       "idCompany": "1",
       "createAt": "18-04-2026 12:02:17",
       "id": "s07U3d4Z8Nk"
-    },
-    {
-      "name": "Lập trình di động",
-      "tags": [
-        "CSS"
-      ],
-      "salary": "10000",
-      "city": [
-        "Đà Nẵng",
-        "Hồ Chí Minh"
-      ],
-      "description": "fsdafdsfd",
-      "idCompany": 1,
-      "createAt": "18-04-2026 12:06:21",
-      "id": "ORQcmeaJARY"
     }
   ],
   "cv": [
@@ -560,7 +545,8 @@
       "idCompany": 1,
       "createAt": "01-06-2023 21:25:50",
       "id": "10",
-      "statusRead": true
+      "statusRead": true,
+      "status": "viewed"
     },
     {
       "name": "ndm",
@@ -628,29 +614,6 @@
       "statusRead": true
     },
     {
-      "name": "qqq",
-      "phone": "0972774148",
-      "email": "ducmanhcr7ngt@gmail.com",
-      "city": "Đà Nẵng",
-      "description": "qqqq",
-      "linkProject": "qqqqq",
-      "idJob": 1,
-      "idCompany": 1,
-      "createAt": "28-11-2023 00:59:38",
-      "id": "16"
-    },
-    {
-      "name": "ndm",
-      "phone": "0972774148",
-      "email": "ducmanhcr7ngt@gmail.com",
-      "city": "Đà Nẵng",
-      "description": "gggh",
-      "idJob": 1,
-      "idCompany": 1,
-      "createAt": "28-11-2023 01:44:18",
-      "id": "17"
-    },
-    {
       "name": "manh t",
       "phone": "0972774148",
       "email": "ducmanhcr7ngt@gmail.com",
@@ -699,16 +662,16 @@
       "id": "21"
     },
     {
-      "name": "duc manh",
-      "phone": "0972774",
-      "email": "ducmanhcr7ngt@gmail.com",
+      "name": "danh",
+      "phone": "1234",
+      "email": "aasdf",
       "city": "Đà Nẵng",
-      "description": "wwwhwjww",
-      "linkProject": "ôk",
-      "idJob": 1,
-      "idCompany": 1,
-      "createAt": "27-05-2024 19:50:43",
-      "id": "22"
+      "description": "fdsaf",
+      "linkProject": "fdsafsd",
+      "idJob": "1",
+      "idCompany": "1",
+      "createAt": "18-04-2026 18:10:03",
+      "id": "Rc6Q8nFCFZQ"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

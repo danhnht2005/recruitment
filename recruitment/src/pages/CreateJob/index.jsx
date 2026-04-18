@@ -7,6 +7,7 @@ import { getListTag } from "../../services/tagService";
 import { getListCity } from "../../services/cityService";
 import { getTimeCurrent } from "../../helpers/getTime";
 import { createJob } from "../../services/jobService";
+import { useNavigate } from "react-router-dom";
 
 function CreateJob() {
   const idCompany = getCookie("id");
@@ -14,6 +15,7 @@ function CreateJob() {
   const [tags, setTags] = useState([]);
   const [city, setCity] = useState([]);
   const [mess, contextHolder] = message.useMessage();
+  const navigate = useNavigate();
 
   useEffect(() => {
     const fetchApi = async () => {
@@ -47,6 +49,7 @@ function CreateJob() {
         content: "Tạo job mới thành công!",
         duration: 5,
       });
+      navigate("/job-manage");
     } else {
       mess.open({
         type: "error",
