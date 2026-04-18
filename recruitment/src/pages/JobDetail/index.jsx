@@ -42,8 +42,8 @@ function JobDetail() {
   }, []);
 
   const onFinish = async (values) => {
-    values.idJob = job.id;
-    values.idCompany = job.infoCompany.id;
+    values.idJob = parseInt(job.id);
+    values.idCompany = parseInt(job.infoCompany.id);
     values.createAt = getTimeCurrent();
     const response = await createCV(values);
     if (response) {
