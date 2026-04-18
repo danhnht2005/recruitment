@@ -18,9 +18,9 @@ function JobList() {
     }
   };
 
-  useEffect(() => {
-    // eslint-disable-next-line react-hooks/set-state-in-effect
+  useEffect(() => { 
     fetchApi();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const handleReload = () => {

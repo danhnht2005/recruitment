@@ -613,29 +613,6 @@
       "statusRead": true
     },
     {
-      "name": "qqq",
-      "phone": "0972774148",
-      "email": "ducmanhcr7ngt@gmail.com",
-      "city": "Đà Nẵng",
-      "description": "qqqq",
-      "linkProject": "qqqqq",
-      "idJob": 1,
-      "idCompany": 1,
-      "createAt": "28-11-2023 00:59:38",
-      "id": "16"
-    },
-    {
-      "name": "ndm",
-      "phone": "0972774148",
-      "email": "ducmanhcr7ngt@gmail.com",
-      "city": "Đà Nẵng",
-      "description": "gggh",
-      "idJob": 1,
-      "idCompany": 1,
-      "createAt": "28-11-2023 01:44:18",
-      "id": "17"
-    },
-    {
       "name": "manh t",
       "phone": "0972774148",
       "email": "ducmanhcr7ngt@gmail.com",
@@ -682,18 +659,6 @@
       "idCompany": 6,
       "createAt": "27-05-2024 00:45:11",
       "id": "21"
-    },
-    {
-      "name": "duc manh",
-      "phone": "0972774",
-      "email": "ducmanhcr7ngt@gmail.com",
-      "city": "Đà Nẵng",
-      "description": "wwwhwjww",
-      "linkProject": "ôk",
-      "idJob": 1,
-      "idCompany": 1,
-      "createAt": "27-05-2024 19:50:43",
-      "id": "22"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
