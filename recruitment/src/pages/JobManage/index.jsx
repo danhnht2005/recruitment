@@ -1,6 +1,7 @@
 import { Button } from "antd";
 import { Link } from "react-router-dom";
 import { PlusOutlined } from "@ant-design/icons";
+import JobList from "./JobList";
 
 function JobManage() {
   return (
@@ -9,6 +10,7 @@ function JobManage() {
       <Link to="/create-job">
         <Button icon={<PlusOutlined />}>Tạo việc mới</Button>
       </Link>
+      <JobList />
     </>
   );
 }
