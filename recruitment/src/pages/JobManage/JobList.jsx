@@ -4,6 +4,7 @@ import { getListJob } from "../../services/jobService";
 import { Button, Table, Tag, Tooltip } from "antd";
 import { Link } from "react-router-dom";
 import { EyeOutlined } from "@ant-design/icons";
+import DeleteJob from "./DeleteJob";
 
 function JobList() {
   const idCompany = getCookie("id");
@@ -21,9 +22,9 @@ function JobList() {
     fetchApi();
   }, []);
 
-  // const handleReload = () => {
-  //   fetchApi();
-  // };
+  const handleReload = () => {
+    fetchApi();
+  };
 
   const columns = [
     {
@@ -81,8 +82,8 @@ function JobList() {
               <Button icon={<EyeOutlined />}></Button>
             </Tooltip>
           </Link>
-          {/* <EditJob record={record} onReload={handleReload} />
-          <DeleteJob record={record} onReload={handleReload} /> */}
+          {/* <EditJob record={record} onReload={handleReload} /> */}
+          <DeleteJob record={record} onReload={handleReload} />
         </>
       ),
     },

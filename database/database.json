@@ -417,21 +417,6 @@
       "idCompany": "1",
       "createAt": "18-04-2026 12:02:17",
       "id": "s07U3d4Z8Nk"
-    },
-    {
-      "name": "Lập trình di động",
-      "tags": [
-        "CSS"
-      ],
-      "salary": "10000",
-      "city": [
-        "Đà Nẵng",
-        "Hồ Chí Minh"
-      ],
-      "description": "fsdafdsfd",
-      "idCompany": 1,
-      "createAt": "18-04-2026 12:06:21",
-      "id": "ORQcmeaJARY"
     }
   ],
   "cv": [
