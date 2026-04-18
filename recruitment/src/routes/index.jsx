@@ -12,6 +12,9 @@ import Logout from "../pages/logout";
 import Dashboard from "../pages/Dashboard";
 import LayoutAdmin from "../components/layout/LayoutAdmin";
 import InfoCompany from "../pages/InfoCompany";
+import JobManage from "../pages/JobManage";
+import CreateJob from "../pages/CreateJob";
+import DetailJob from "../pages/JobManage/DetailJob";
 
 export const routes = [
   {
@@ -70,6 +73,18 @@ export const routes = [
           {
             path: "info-company",
             element: <InfoCompany />,
+          },
+          {
+            path: "job-manage",
+            element: <JobManage />,
+          },
+          {
+            path: "create-job",
+            element: <CreateJob />,
+          },
+          {
+            path: "detail-job/:id",
+            element: <DetailJob />,
           },
         ]
       },

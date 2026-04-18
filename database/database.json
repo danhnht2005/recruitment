@@ -403,6 +403,35 @@
       "idCompany": "4",
       "createAt": "27-05-2024 00:45:42",
       "id": "16"
+    },
+    {
+      "name": "Trí tuệ nhân tạo",
+      "tags": [
+        "HTML"
+      ],
+      "salary": "10000",
+      "city": [
+        "Hồ Chí Minh"
+      ],
+      "description": "fdsaffsd",
+      "idCompany": "1",
+      "createAt": "18-04-2026 12:02:17",
+      "id": "s07U3d4Z8Nk"
+    },
+    {
+      "name": "Lập trình di động",
+      "tags": [
+        "CSS"
+      ],
+      "salary": "10000",
+      "city": [
+        "Đà Nẵng",
+        "Hồ Chí Minh"
+      ],
+      "description": "fsdafdsfd",
+      "idCompany": 1,
+      "createAt": "18-04-2026 12:06:21",
+      "id": "ORQcmeaJARY"
     }
   ],
   "cv": [
