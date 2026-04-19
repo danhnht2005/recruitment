@@ -1,4 +1,8 @@
 .layout-default {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
   &__header {
     background: #EDF2F1;
     display: flex;
@@ -52,7 +56,7 @@
 
   &__main {
     padding: 20px;
-    margin-bottom: 50px;
+    flex: 1;
   }
 
   &__footer {
